@@ -1,0 +1,1 @@
+{"options":{"Price":"1"},"data":{"Kind":"1","Addresses":[{"Kind":1,"Name1":"Testkunde AS","Street1":"Storgata 1","PostCode":"0155","City":"OSLO","CountryCode":"NO","Mobile":"+4790000000","Email":"test@example.no","Attention":"Ola Nordmann","ERPRef":"K10000"}],"Lines":[{"PkgWeight":"12500","Length":"60","Width":"40","Height":"40","PkgVol":"96000","Pkgs":[{"ItemNo":1}]}]}}

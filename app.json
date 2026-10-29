@@ -1,0 +1,43 @@
+{
+  "id": "1fc5d7ca-b6ca-42f1-98c2-c07ff314534a",
+  "name": "nShift Connector Test",
+  "publisher": "Knowit Insight Business Solution AS",
+  "version": "1.0.0.0",
+  "brief": "Tester for nShift Connector",
+  "description": "Automatiserte tester for nShift Connector, med mock-provider og JSON-fixtures.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "b3c548a2-8387-4e74-861d-b7f9fac7fec8",
+      "name": "nShift Connector",
+      "publisher": "Knowit Insight Business Solution AS",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 73960,
+      "to": 74059
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "target": "Cloud",
+  "features": [
+    "NoImplicitWith"
+  ],
+  "resourceFolders": [
+    "fixtures"
+  ]
+}

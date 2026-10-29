@@ -1,0 +1,13 @@
+{
+  "ErrorType": "Unprocessable Entity",
+  "Message": "Shipment validation failed",
+  "Errors": [
+    {
+      "shipmentKind": "1",
+      "level": "Shipment",
+      "message": "Maximum weight per product cannot exceed 35 kg.",
+      "fieldName": "Weight",
+      "groupName": "Goods"
+    }
+  ]
+,"CorrelationID":"a9eaa6d8-5ab6-43ed-84ea-7f4afaceea1e"}

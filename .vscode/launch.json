@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "SRNO-Infrastructure-BB-Sandbox",
+            "tenant": "04fd4cab-238b-41ae-995e-3efec1e92950",
+            "schemaUpdateMode": "ForceSync",
+            "startupObjectId": 130451,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true
+        }
+    ]
+}

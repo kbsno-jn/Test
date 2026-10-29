@@ -1,0 +1,1887 @@
+{
+  "Carriers": [
+    {
+      "CarrierConceptID": 39,
+      "CountryCode": "NO",
+      "CarrierFullName": "DSV Norge",
+      "Products": [
+        {
+          "SubcarrierName": "DSV Road",
+          "ProdConceptID": 400,
+          "ProdName": "Groupage",
+          "Countries": "",
+          "DenyCountries": "",
+          "AllowDG": 1,
+          "AllowInsurance": 1,
+          "AllowCOD": 1,
+          "GoodsTypes": [
+            {
+              "GoodsTypeID": 101,
+              "GoodsTypeKey1": "CLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Colli"
+            },
+            {
+              "GoodsTypeID": 102,
+              "GoodsTypeKey1": "PLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Pallet"
+            },
+            {
+              "GoodsTypeID": 103,
+              "GoodsTypeKey1": "HPL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Half Pallet"
+            },
+            {
+              "GoodsTypeID": 104,
+              "GoodsTypeKey1": "QPL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Quarter Pallet"
+            },
+            {
+              "GoodsTypeID": 105,
+              "GoodsTypeKey1": "RLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Roll"
+            }
+          ],
+          "Services": [
+            {
+              "ServiceID": 39001,
+              "ServiceName": "Ex-Works (Brukes ved Mottaker betaler)",
+              "ServiceCode": "EXW",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39002,
+              "ServiceName": "FCA-Free carrier (Brukes ved Mottaker betaler)",
+              "ServiceCode": "FCA",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39007,
+              "ServiceName": "CPT-Carriage paid to... (Brukes ved Avsender betaler)",
+              "ServiceCode": "CPT",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39008,
+              "ServiceName": "CIP-Carriage and insurance paid to.. (Brukes ved Avsender betaler)",
+              "ServiceCode": "CIP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39012,
+              "ServiceName": "DAP-Delivered at place (Brukes ved Avsender betaler)",
+              "ServiceCode": "DAP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39013,
+              "ServiceName": "DDP-Delivered duty paid (Brukes ved Avsender betaler)",
+              "ServiceCode": "DDP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39017,
+              "ServiceName": "Warm(4-20)",
+              "ServiceCode": "Warm(4-20)",
+              "GroupID": 3
+            },
+            {
+              "ServiceID": 39018,
+              "ServiceName": "ThirdPartyPays",
+              "ServiceCode": "ThirdPartyPays",
+              "Kind": 2
+            }
+          ],
+          "configuration": {
+            "ShipperAccount": {
+              "Shipper": {
+                "Account": "1864327",
+                "PickupTerminal": "BERN"
+              }
+            },
+            "EdiTransmit": {
+              "TransmitMethod": {
+                "Selected": "Edisoft"
+              },
+              "EDIID": {
+                "EDIIDReceiverCode": "14",
+                "EDIIDReceiver": "DKDFDS",
+                "EDIIDSenderCode": "14",
+                "EDIIDSender": "NO-EDISOFT-STD"
+              },
+              "Edisoft": {
+                "ProfileID": "0"
+              }
+            },
+            "FreightDocOptions": {
+              "Doc_69": {
+                "Active": "1",
+                "Count": "0",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              },
+              "Doc_55": {
+                "Active": "0",
+                "Count": "1",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              },
+              "Doc_1": {
+                "Active": "1",
+                "Count": "0",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              }
+            },
+            "EnabledGoodsTypes": {
+              "EnabledInfo": {
+                "Count": "5"
+              },
+              "GoodsTypes": {
+                "4": "105;5;RLL;;\"Roll\";0",
+                "3": "104;4;QPL;;\"Quarter Pallet\";0",
+                "2": "103;3;HPL;;\"Half Pallet\";0",
+                "1": "102;2;PLL;;\"Pallet\";0",
+                "0": "101;1;CLL;;\"Colli\";0"
+              },
+              "ConvertedById": {
+                "1": "101",
+                "2": "102",
+                "3": "103",
+                "4": "104",
+                "5": "105"
+              },
+              "ConvertedByName": {
+                "Kolli": "101",
+                "1/1 palle": "102",
+                "1/2 palle": "103",
+                "1/4 palle": "104",
+                "Rull": "105"
+              },
+              "ConvertedByCode": {
+                "RLL": "105",
+                "PL4": "104",
+                "PL2": "103",
+                "PL1": "102",
+                "CLL": "101"
+              }
+            },
+            "LayoutLabel": {
+              "info": {
+                "filecount": "1",
+                "file1": "NODSVLang.layout"
+              }
+            }
+          }
+        },
+        {
+          "SubcarrierName": "DSV Road",
+          "ProdConceptID": 397,
+          "ProdName": "Full load",
+          "Countries": "",
+          "DenyCountries": "",
+          "AllowDG": 1,
+          "AllowInsurance": 1,
+          "AllowCOD": 1,
+          "GoodsTypes": [
+            {
+              "GoodsTypeID": 101,
+              "GoodsTypeKey1": "CLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Colli"
+            },
+            {
+              "GoodsTypeID": 102,
+              "GoodsTypeKey1": "PLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Pallet"
+            },
+            {
+              "GoodsTypeID": 103,
+              "GoodsTypeKey1": "HPL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Half Pallet"
+            },
+            {
+              "GoodsTypeID": 104,
+              "GoodsTypeKey1": "QPL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Quarter Pallet"
+            },
+            {
+              "GoodsTypeID": 105,
+              "GoodsTypeKey1": "RLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Roll"
+            }
+          ],
+          "Services": [
+            {
+              "ServiceID": 39001,
+              "ServiceName": "Ex-Works (Brukes ved Mottaker betaler)",
+              "ServiceCode": "EXW",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39002,
+              "ServiceName": "FCA-Free carrier (Brukes ved Mottaker betaler)",
+              "ServiceCode": "FCA",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39007,
+              "ServiceName": "CPT-Carriage paid to... (Brukes ved Avsender betaler)",
+              "ServiceCode": "CPT",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39008,
+              "ServiceName": "CIP-Carriage and insurance paid to.. (Brukes ved Avsender betaler)",
+              "ServiceCode": "CIP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39012,
+              "ServiceName": "DAP-Delivered at place (Brukes ved Avsender betaler)",
+              "ServiceCode": "DAP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39013,
+              "ServiceName": "DDP-Delivered duty paid (Brukes ved Avsender betaler)",
+              "ServiceCode": "DDP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39018,
+              "ServiceName": "ThirdPartyPays",
+              "ServiceCode": "ThirdPartyPays",
+              "Kind": 2
+            }
+          ],
+          "configuration": {
+            "ShipperAccount": {
+              "Shipper": {
+                "Account": "1864327",
+                "PickupTerminal": "BERN"
+              }
+            },
+            "EdiTransmit": {
+              "TransmitMethod": {
+                "Selected": "Edisoft"
+              },
+              "EDIID": {
+                "EDIIDReceiverCode": "14",
+                "EDIIDReceiver": "DKDFDS",
+                "EDIIDSenderCode": "14",
+                "EDIIDSender": "NO-EDISOFT-STD"
+              },
+              "Edisoft": {
+                "ProfileID": "0"
+              }
+            },
+            "FreightDocOptions": {
+              "Doc_69": {
+                "Active": "1",
+                "Count": "0",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              },
+              "Doc_55": {
+                "Active": "0",
+                "Count": "1",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              },
+              "Doc_1": {
+                "Active": "1",
+                "Count": "0",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              }
+            },
+            "EnabledGoodsTypes": {
+              "EnabledInfo": {
+                "Count": "5"
+              },
+              "GoodsTypes": {
+                "4": "105;5;RLL;;\"Roll\";0",
+                "3": "104;4;QPL;;\"Quarter Pallet\";0",
+                "2": "103;3;HPL;;\"Half Pallet\";0",
+                "1": "102;2;PLL;;\"Pallet\";0",
+                "0": "101;1;CLL;;\"Colli\";0"
+              },
+              "ConvertedById": {
+                "1": "101",
+                "2": "102",
+                "3": "103",
+                "4": "104",
+                "5": "105"
+              },
+              "ConvertedByName": {
+                "Kolli": "101",
+                "1/1 palle": "102",
+                "1/2 palle": "103",
+                "1/4 palle": "104",
+                "Rull": "105"
+              },
+              "ConvertedByCode": {
+                "RLL": "105",
+                "PL4": "104",
+                "PL2": "103",
+                "PL1": "102",
+                "CLL": "101"
+              }
+            },
+            "LayoutLabel": {
+              "info": {
+                "filecount": "1",
+                "file1": "NODSVLang.layout"
+              }
+            }
+          }
+        },
+        {
+          "SubcarrierName": "DSV Road",
+          "ProdConceptID": 398,
+          "ProdName": "Part load",
+          "Countries": "",
+          "DenyCountries": "",
+          "AllowDG": 1,
+          "AllowInsurance": 1,
+          "AllowCOD": 1,
+          "GoodsTypes": [
+            {
+              "GoodsTypeID": 101,
+              "GoodsTypeKey1": "CLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Colli"
+            },
+            {
+              "GoodsTypeID": 102,
+              "GoodsTypeKey1": "PLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Pallet"
+            },
+            {
+              "GoodsTypeID": 103,
+              "GoodsTypeKey1": "HPL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Half Pallet"
+            },
+            {
+              "GoodsTypeID": 104,
+              "GoodsTypeKey1": "QPL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Quarter Pallet"
+            },
+            {
+              "GoodsTypeID": 105,
+              "GoodsTypeKey1": "RLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Roll"
+            }
+          ],
+          "Services": [
+            {
+              "ServiceID": 39001,
+              "ServiceName": "Ex-Works (Brukes ved Mottaker betaler)",
+              "ServiceCode": "EXW",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39002,
+              "ServiceName": "FCA-Free carrier (Brukes ved Mottaker betaler)",
+              "ServiceCode": "FCA",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39007,
+              "ServiceName": "CPT-Carriage paid to... (Brukes ved Avsender betaler)",
+              "ServiceCode": "CPT",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39008,
+              "ServiceName": "CIP-Carriage and insurance paid to.. (Brukes ved Avsender betaler)",
+              "ServiceCode": "CIP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39012,
+              "ServiceName": "DAP-Delivered at place (Brukes ved Avsender betaler)",
+              "ServiceCode": "DAP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39013,
+              "ServiceName": "DDP-Delivered duty paid (Brukes ved Avsender betaler)",
+              "ServiceCode": "DDP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39017,
+              "ServiceName": "Warm(4-20)",
+              "ServiceCode": "Warm(4-20)",
+              "GroupID": 3
+            },
+            {
+              "ServiceID": 39018,
+              "ServiceName": "ThirdPartyPays",
+              "ServiceCode": "ThirdPartyPays",
+              "Kind": 2
+            }
+          ],
+          "configuration": {
+            "ShipperAccount": {
+              "Shipper": {
+                "Account": "1864327",
+                "PickupTerminal": "BERN"
+              }
+            },
+            "EdiTransmit": {
+              "TransmitMethod": {
+                "Selected": "Edisoft"
+              },
+              "EDIID": {
+                "EDIIDReceiverCode": "14",
+                "EDIIDReceiver": "DKDFDS",
+                "EDIIDSenderCode": "14",
+                "EDIIDSender": "NO-EDISOFT-STD"
+              },
+              "Edisoft": {
+                "ProfileID": "0"
+              }
+            },
+            "FreightDocOptions": {
+              "Doc_69": {
+                "Active": "1",
+                "Count": "0",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              },
+              "Doc_55": {
+                "Active": "0",
+                "Count": "1",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              },
+              "Doc_1": {
+                "Active": "1",
+                "Count": "0",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              }
+            },
+            "EnabledGoodsTypes": {
+              "EnabledInfo": {
+                "Count": "5"
+              },
+              "GoodsTypes": {
+                "4": "105;5;RLL;;\"Roll\";0",
+                "3": "104;4;QPL;;\"Quarter Pallet\";0",
+                "2": "103;3;HPL;;\"Half Pallet\";0",
+                "1": "102;2;PLL;;\"Pallet\";0",
+                "0": "101;1;CLL;;\"Colli\";0"
+              },
+              "ConvertedById": {
+                "1": "101",
+                "2": "102",
+                "3": "103",
+                "4": "104",
+                "5": "105"
+              },
+              "ConvertedByName": {
+                "Kolli": "101",
+                "1/1 palle": "102",
+                "1/2 palle": "103",
+                "1/4 palle": "104",
+                "Rull": "105"
+              },
+              "ConvertedByCode": {
+                "RLL": "105",
+                "PL4": "104",
+                "PL2": "103",
+                "PL1": "102",
+                "CLL": "101"
+              }
+            },
+            "LayoutLabel": {
+              "info": {
+                "filecount": "1",
+                "file1": "NODSVLang.layout"
+              }
+            }
+          }
+        },
+        {
+          "SubcarrierName": "DSV Road",
+          "ProdConceptID": 399,
+          "ProdName": "Parcel",
+          "Countries": "",
+          "DenyCountries": "",
+          "AllowDG": 1,
+          "AllowInsurance": 1,
+          "AllowCOD": 1,
+          "GoodsTypes": [
+            {
+              "GoodsTypeID": 101,
+              "GoodsTypeKey1": "CLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Colli"
+            },
+            {
+              "GoodsTypeID": 102,
+              "GoodsTypeKey1": "PLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Pallet"
+            },
+            {
+              "GoodsTypeID": 103,
+              "GoodsTypeKey1": "HPL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Half Pallet"
+            },
+            {
+              "GoodsTypeID": 104,
+              "GoodsTypeKey1": "QPL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Quarter Pallet"
+            },
+            {
+              "GoodsTypeID": 105,
+              "GoodsTypeKey1": "RLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Roll"
+            }
+          ],
+          "Services": [
+            {
+              "ServiceID": 39001,
+              "ServiceName": "Ex-Works (Brukes ved Mottaker betaler)",
+              "ServiceCode": "EXW",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39002,
+              "ServiceName": "FCA-Free carrier (Brukes ved Mottaker betaler)",
+              "ServiceCode": "FCA",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39007,
+              "ServiceName": "CPT-Carriage paid to... (Brukes ved Avsender betaler)",
+              "ServiceCode": "CPT",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39008,
+              "ServiceName": "CIP-Carriage and insurance paid to.. (Brukes ved Avsender betaler)",
+              "ServiceCode": "CIP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39012,
+              "ServiceName": "DAP-Delivered at place (Brukes ved Avsender betaler)",
+              "ServiceCode": "DAP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39013,
+              "ServiceName": "DDP-Delivered duty paid (Brukes ved Avsender betaler)",
+              "ServiceCode": "DDP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39018,
+              "ServiceName": "ThirdPartyPays",
+              "ServiceCode": "ThirdPartyPays",
+              "Kind": 2
+            }
+          ],
+          "configuration": {
+            "ShipperAccount": {
+              "Shipper": {
+                "Account": "1864327",
+                "PickupTerminal": "BERN"
+              }
+            },
+            "EdiTransmit": {
+              "TransmitMethod": {
+                "Selected": "Edisoft"
+              },
+              "EDIID": {
+                "EDIIDReceiverCode": "14",
+                "EDIIDReceiver": "DKDFDS",
+                "EDIIDSenderCode": "14",
+                "EDIIDSender": "NO-EDISOFT-STD"
+              },
+              "Edisoft": {
+                "ProfileID": "0"
+              }
+            },
+            "FreightDocOptions": {
+              "Doc_69": {
+                "Active": "1",
+                "Count": "0",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              },
+              "Doc_55": {
+                "Active": "0",
+                "Count": "1",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              },
+              "Doc_1": {
+                "Active": "1",
+                "Count": "0",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              }
+            },
+            "EnabledGoodsTypes": {
+              "EnabledInfo": {
+                "Count": "5"
+              },
+              "GoodsTypes": {
+                "4": "105;5;RLL;;\"Roll\";0",
+                "3": "104;4;QPL;;\"Quarter Pallet\";0",
+                "2": "103;3;HPL;;\"Half Pallet\";0",
+                "1": "102;2;PLL;;\"Pallet\";0",
+                "0": "101;1;CLL;;\"Colli\";0"
+              },
+              "ConvertedById": {
+                "1": "101",
+                "2": "102",
+                "3": "103",
+                "4": "104",
+                "5": "105"
+              },
+              "ConvertedByName": {
+                "Kolli": "101",
+                "1/1 palle": "102",
+                "1/2 palle": "103",
+                "1/4 palle": "104",
+                "Rull": "105"
+              },
+              "ConvertedByCode": {
+                "RLL": "105",
+                "PL4": "104",
+                "PL2": "103",
+                "PL1": "102",
+                "CLL": "101"
+              }
+            },
+            "LayoutLabel": {
+              "info": {
+                "filecount": "1",
+                "file1": "NODSVLang.layout"
+              }
+            }
+          }
+        },
+        {
+          "SubcarrierName": "DSV Road",
+          "ProdConceptID": 1978,
+          "ProdName": "Road Return",
+          "ProdAvailableAsReturn": 1,
+          "Countries": "",
+          "DenyCountries": "",
+          "AllowDG": 1,
+          "AllowInsurance": 1,
+          "AllowCOD": 1,
+          "GoodsTypes": [
+            {
+              "GoodsTypeID": 101,
+              "GoodsTypeKey1": "CLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Colli"
+            },
+            {
+              "GoodsTypeID": 102,
+              "GoodsTypeKey1": "PLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Pallet"
+            },
+            {
+              "GoodsTypeID": 103,
+              "GoodsTypeKey1": "HPL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Half Pallet"
+            },
+            {
+              "GoodsTypeID": 104,
+              "GoodsTypeKey1": "QPL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Quarter Pallet"
+            },
+            {
+              "GoodsTypeID": 105,
+              "GoodsTypeKey1": "RLL",
+              "GoodsTypeKey2": "",
+              "GoodsTypeKeyword": "Roll"
+            }
+          ],
+          "Services": [
+            {
+              "ServiceID": 39001,
+              "ServiceName": "Ex-Works (Brukes ved Mottaker betaler)",
+              "ServiceCode": "EXW",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39002,
+              "ServiceName": "FCA-Free carrier (Brukes ved Mottaker betaler)",
+              "ServiceCode": "FCA",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39007,
+              "ServiceName": "CPT-Carriage paid to... (Brukes ved Avsender betaler)",
+              "ServiceCode": "CPT",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39008,
+              "ServiceName": "CIP-Carriage and insurance paid to.. (Brukes ved Avsender betaler)",
+              "ServiceCode": "CIP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39012,
+              "ServiceName": "DAP-Delivered at place (Brukes ved Avsender betaler)",
+              "ServiceCode": "DAP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39013,
+              "ServiceName": "DDP-Delivered duty paid (Brukes ved Avsender betaler)",
+              "ServiceCode": "DDP",
+              "GroupID": 1
+            },
+            {
+              "ServiceID": 39018,
+              "ServiceName": "ThirdPartyPays",
+              "ServiceCode": "ThirdPartyPays",
+              "Kind": 2
+            }
+          ],
+          "configuration": {
+            "ShipperAccount": {
+              "Shipper": {
+                "Account": "1864327",
+                "PickupTerminal": "BERN"
+              }
+            },
+            "EdiTransmit": {
+              "TransmitMethod": {
+                "Selected": "Edisoft"
+              },
+              "EDIID": {
+                "EDIIDReceiverCode": "14",
+                "EDIIDReceiver": "DKDFDS",
+                "EDIIDSenderCode": "14",
+                "EDIIDSender": "NO-EDISOFT-STD"
+              },
+              "Edisoft": {
+                "ProfileID": "0"
+              }
+            },
+            "FreightDocOptions": {
+              "Doc_69": {
+                "Active": "1",
+                "Count": "0",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              },
+              "Doc_55": {
+                "Active": "0",
+                "Count": "1",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              },
+              "Doc_1": {
+                "Active": "1",
+                "Count": "0",
+                "Reprint": "True",
+                "ManualPrint": "0",
+                "StoreToDb": "0",
+                "UserAdded": "0",
+                "MailbackTypes": "0",
+                "PrintRule": "0",
+                "PrintTrigger": "0",
+                "UploadToFTP": "0"
+              }
+            },
+            "EnabledGoodsTypes": {
+              "EnabledInfo": {
+                "Count": "5"
+              },
+              "GoodsTypes": {
+                "4": "105;5;RLL;;\"Roll\";0",
+                "3": "104;4;QPL;;\"Quarter Pallet\";0",
+                "2": "103;3;HPL;;\"Half Pallet\";0",
+                "1": "102;2;PLL;;\"Pallet\";0",
+                "0": "101;1;CLL;;\"Colli\";0"
+              },
+              "ConvertedById": {
+                "1": "101",
+                "2": "102",
+                "3": "103",
+                "4": "104",
+                "5": "105"
+              },
+              "ConvertedByName": {
+                "Kolli": "101",
+                "1/1 palle": "102",
+                "1/2 palle": "103",
+                "1/4 palle": "104",
+                "Rull": "105"
+              },
+              "ConvertedByCode": {
+                "RLL": "105",
+                "PL4": "104",
+                "PL2": "103",
+                "PL1": "102",
+                "CLL": "101"
+              }
+            },
+            "LayoutLabel": {
+              "info": {
+                "filecount": "1",
+                "file1": "NODSVLang.layout"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "CarrierConceptID": 442,
+      "CarrierFullName": "Bring",
+      "Products": [
+        {
+          "SubcarrierName": "Bring Norway Domestic",
+          "ProdConceptID": 3581,
+          "ProdName": "Pakke til bedrift Ekspress",
+          "Countries": "",
+          "DenyCountries": "",
+          "SupportsDropPoint": 1,
+          "DetailGroups": [
+            {
+              "DetailGroupID": 1,
+              "Label": "Details",
+              "Listing": "multiple",
+              "Details": [
+                {
+                  "DetailID": 5,
+                  "Label": "Quantity",
+                  "DataType": "3"
+                },
+                {
+                  "DetailID": 4,
+                  "Label": "Country of origin",
+                  "DataType": "1"
+                },
+                {
+                  "DetailID": 2,
+                  "Label": "Unit Value",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 10,
+                  "Label": "Total Value",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 17,
+                  "Label": "Currency",
+                  "DataType": "2"
+                },
+                {
+                  "DetailID": 18,
+                  "Label": "Commodity code",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 1,
+                  "Label": "Article No",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 7,
+                  "Label": "Description of goods",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 36,
+                  "Label": "Item Netto Weight(KGM)",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 6,
+                  "Label": "Item Gross Weight(KGM)",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 193,
+                  "Label": "GoodsLineNo",
+                  "DataType": "3"
+                }
+              ]
+            }
+          ],
+          "Services": [
+            {
+              "ServiceID": 442123,
+              "ServiceName": "Valgfritt hentested",
+              "ServiceCode": "Valgfritt_hentested",
+              "RefreshDropPoint": 1,
+              "GroupID": 8,
+              "Kind": 12
+            },
+            {
+              "ServiceID": 442025,
+              "ServiceName": "Utlevering lørdag",
+              "ServiceCode": "Utlevering lørdag"
+            },
+            {
+              "ServiceID": 442010,
+              "ServiceName": "Elektronisk varsling til tredjepart",
+              "ServiceCode": "Elektronisk varsling til tredjepart"
+            },
+            {
+              "ServiceID": 442011,
+              "ServiceName": "Legitimasjonsplikt",
+              "ServiceCode": "Legitimasjonsplikt"
+            },
+            {
+              "ServiceID": 442012,
+              "ServiceName": "Personlig utlevering",
+              "ServiceCode": "Personlig utlevering"
+            },
+            {
+              "ServiceID": 442009,
+              "ServiceName": "Flex Delivery",
+              "ServiceCode": "Forenklet utlevering"
+            },
+            {
+              "ServiceID": 442021,
+              "ServiceName": "Valgfritt hentested og pakkeboks",
+              "ServiceCode": "Valgfritt_hentested_og_pakkeboks",
+              "RefreshDropPoint": 1,
+              "GroupID": 8,
+              "Kind": 12
+            },
+            {
+              "ServiceID": 442080,
+              "ServiceName": "Valgfritt pakkeboks",
+              "ServiceCode": "Pakkeboks",
+              "RefreshDropPoint": 1,
+              "GroupID": 8,
+              "Kind": 12
+            }
+          ],
+          "configuration": {
+            "ShipperAccount": {
+              "Shipper": {
+                "Account": "2228294"
+              }
+            },
+            "EdiTransmit": {
+              "TransmitMethod": {
+                "Selected": "Edisoft"
+              },
+              "EDIID": {
+                "EDIIDReceiverCode": "30",
+                "EDIIDReceiver": "984661185",
+                "EDIIDSenderCode": "ZZZ",
+                "EDIIDSender": "CONSIGNORNO"
+              },
+              "Edisoft": {
+                "ProfileID": "0"
+              }
+            },
+            "CounterProfiles": {
+              "CounterProfile": {
+                "PackageCounterId": "-1",
+                "CounterId": "10108"
+              }
+            },
+            "Completion": {
+              "Enable": {
+                "Completion": "1",
+                "Ask": "1",
+                "AllowDontAsk": "0",
+                "AllowShipmentNumber": "0",
+                "ReceiverName1": "1",
+                "ReceiverName2": "1",
+                "ReceiverStreetAddress1": "1",
+                "ReceiverStreetAddress2": "1",
+                "ReceiverPostCode": "1",
+                "ReceiverCity": "1",
+                "ReceiverState": "1",
+                "ReceiverCountry": "1",
+                "ReceiverMobilePhoneNumber": "0",
+                "ReceiverPhoneNumber": "0",
+                "ReceiverFaxNumber": "0",
+                "ReceiverAttention": "0",
+                "ReceiverReference": "0",
+                "OrderNumber": "0",
+                "ProjectName": "0",
+                "Allow shipment completion over multiple days": "0",
+                "AllowOnPrebookedShipments": "0",
+                "ManualStacks": "0",
+                "Shipment Completion Log": "0",
+                "Trim response in API": "0",
+                "Merge Messages": "0",
+                "Multiple Days Limit": "0"
+              },
+              "UsedFieldsFromMerged": {
+                "OnlyWhenValueNotEmpty": "0"
+              }
+            }
+          }
+        },
+        {
+          "SubcarrierName": "Bring Norway Domestic",
+          "ProdConceptID": 5768,
+          "ProdName": "Før 07 til bedrift",
+          "Countries": "",
+          "DenyCountries": "",
+          "AllowDG": 1,
+          "DetailGroups": [
+            {
+              "DetailGroupID": 1,
+              "Label": "Details",
+              "Listing": "multiple",
+              "Details": [
+                {
+                  "DetailID": 5,
+                  "Label": "Quantity",
+                  "DataType": "3"
+                },
+                {
+                  "DetailID": 4,
+                  "Label": "Country of origin",
+                  "DataType": "1"
+                },
+                {
+                  "DetailID": 2,
+                  "Label": "Unit Value",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 10,
+                  "Label": "Total Value",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 17,
+                  "Label": "Currency",
+                  "DataType": "2"
+                },
+                {
+                  "DetailID": 18,
+                  "Label": "Commodity code",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 1,
+                  "Label": "Article No",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 7,
+                  "Label": "Description of goods",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 36,
+                  "Label": "Item Netto Weight(KGM)",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 6,
+                  "Label": "Item Gross Weight(KGM)",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 193,
+                  "Label": "GoodsLineNo",
+                  "DataType": "3"
+                }
+              ]
+            }
+          ],
+          "Services": [
+            {
+              "ServiceID": 442001,
+              "ServiceName": "Elektronisk varsling til avsender om utlevering",
+              "ServiceCode": "Elektronisk varsling til avsender"
+            },
+            {
+              "ServiceID": 442010,
+              "ServiceName": "Elektronisk varsling til tredjepart",
+              "ServiceCode": "Elektronisk varsling til tredjepart"
+            },
+            {
+              "ServiceID": 442041,
+              "ServiceName": "Mottaker betaler frakt",
+              "ServiceCode": "Mottaker betaler frakt",
+              "GroupID": 1,
+              "Kind": 1
+            },
+            {
+              "ServiceID": 442042,
+              "ServiceName": "Tredjepart betaler frakt",
+              "ServiceCode": "Tredjepart betaler frakt",
+              "GroupID": 1,
+              "Kind": 2
+            },
+            {
+              "ServiceID": 442009,
+              "ServiceName": "Flex Delivery",
+              "ServiceCode": "Forenklet utlevering"
+            },
+            {
+              "ServiceID": 442045,
+              "ServiceName": "Pickup",
+              "ServiceCode": "Pickup",
+              "GroupID": 6
+            },
+            {
+              "ServiceID": 442044,
+              "ServiceName": "Farlig gods",
+              "ServiceCode": "Farlig gods"
+            },
+            {
+              "ServiceID": 442082,
+              "ServiceName": "Limited Quantity",
+              "ServiceCode": "Limited Quantity"
+            }
+          ],
+          "configuration": {
+            "ShipperAccount": {
+              "Shipper": {
+                "Account": "2228294"
+              }
+            },
+            "EdiTransmit": {
+              "TransmitMethod": {
+                "Selected": "Edisoft"
+              },
+              "EDIID": {
+                "EDIIDReceiverCode": "30",
+                "EDIIDReceiver": "984661185",
+                "EDIIDSenderCode": "ZZZ",
+                "EDIIDSender": "CONSIGNORNO"
+              },
+              "Edisoft": {
+                "ProfileID": "0"
+              }
+            },
+            "CounterProfiles": {
+              "CounterProfile": {
+                "PackageCounterId": "-1",
+                "CounterId": "10108"
+              }
+            },
+            "Completion": {
+              "Enable": {
+                "Completion": "1",
+                "Ask": "1",
+                "AllowDontAsk": "0",
+                "AllowShipmentNumber": "0",
+                "ReceiverName1": "1",
+                "ReceiverName2": "1",
+                "ReceiverStreetAddress1": "1",
+                "ReceiverStreetAddress2": "1",
+                "ReceiverPostCode": "1",
+                "ReceiverCity": "1",
+                "ReceiverState": "1",
+                "ReceiverCountry": "1",
+                "ReceiverMobilePhoneNumber": "0",
+                "ReceiverPhoneNumber": "0",
+                "ReceiverFaxNumber": "0",
+                "ReceiverAttention": "0",
+                "ReceiverReference": "0",
+                "OrderNumber": "0",
+                "ProjectName": "0",
+                "Allow shipment completion over multiple days": "0",
+                "AllowOnPrebookedShipments": "0",
+                "ManualStacks": "0",
+                "Shipment Completion Log": "0",
+                "Trim response in API": "0",
+                "Merge Messages": "0",
+                "Multiple Days Limit": "0"
+              },
+              "UsedFieldsFromMerged": {
+                "OnlyWhenValueNotEmpty": "0"
+              }
+            }
+          }
+        },
+        {
+          "SubcarrierName": "Bring Norway Domestic",
+          "ProdConceptID": 3578,
+          "ProdName": "Pakke til bedrift",
+          "Countries": "",
+          "DenyCountries": "",
+          "DetailGroups": [
+            {
+              "DetailGroupID": 1,
+              "Label": "Details",
+              "Listing": "multiple",
+              "Details": [
+                {
+                  "DetailID": 5,
+                  "Label": "Quantity",
+                  "DataType": "3"
+                },
+                {
+                  "DetailID": 4,
+                  "Label": "Country of origin",
+                  "DataType": "1"
+                },
+                {
+                  "DetailID": 2,
+                  "Label": "Unit Value",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 10,
+                  "Label": "Total Value",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 17,
+                  "Label": "Currency",
+                  "DataType": "2"
+                },
+                {
+                  "DetailID": 18,
+                  "Label": "Commodity code",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 1,
+                  "Label": "Article No",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 7,
+                  "Label": "Description of goods",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 36,
+                  "Label": "Item Netto Weight(KGM)",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 6,
+                  "Label": "Item Gross Weight(KGM)",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 193,
+                  "Label": "GoodsLineNo",
+                  "DataType": "3"
+                }
+              ]
+            }
+          ],
+          "Services": [
+            {
+              "ServiceID": 442001,
+              "ServiceName": "Elektronisk varsling til avsender om utlevering",
+              "ServiceCode": "Elektronisk varsling til avsender"
+            },
+            {
+              "ServiceID": 442010,
+              "ServiceName": "Elektronisk varsling til tredjepart",
+              "ServiceCode": "Elektronisk varsling til tredjepart"
+            },
+            {
+              "ServiceID": 442011,
+              "ServiceName": "Legitimasjonsplikt",
+              "ServiceCode": "Legitimasjonsplikt"
+            },
+            {
+              "ServiceID": 442015,
+              "ServiceName": "Ett utleveringsforsøk, så hentested",
+              "ServiceCode": "Ett_utleveringsforsøk_så_hentested",
+              "GroupID": 3
+            },
+            {
+              "ServiceID": 442016,
+              "ServiceName": "To utleveringsforsøk, så hentested",
+              "ServiceCode": "To_utleveringsforsøk_så_hentested",
+              "GroupID": 3
+            },
+            {
+              "ServiceID": 442019,
+              "ServiceName": "Ekstra utleveringsforsøk",
+              "ServiceCode": "Ekstra utleveringsforsøk"
+            },
+            {
+              "ServiceID": 442009,
+              "ServiceName": "Flex Delivery",
+              "ServiceCode": "Forenklet utlevering"
+            },
+            {
+              "ServiceID": 442004,
+              "ServiceName": "E-varsling",
+              "ServiceCode": "E-varsling"
+            },
+            {
+              "ServiceID": 442079,
+              "ServiceName": "Signatur påkrevd",
+              "ServiceCode": "Signatur_påkrevd"
+            },
+            {
+              "ServiceID": 442135,
+              "ServiceName": "Spesielle leveringsbetingelser",
+              "ServiceCode": "SpesielleLeveringsbetingelser"
+            }
+          ],
+          "configuration": {
+            "ShipperAccount": {
+              "Shipper": {
+                "Account": "2228294"
+              }
+            },
+            "EdiTransmit": {
+              "TransmitMethod": {
+                "Selected": "Edisoft"
+              },
+              "EDIID": {
+                "EDIIDReceiverCode": "30",
+                "EDIIDReceiver": "984661185",
+                "EDIIDSenderCode": "ZZZ",
+                "EDIIDSender": "CONSIGNORNO"
+              },
+              "Edisoft": {
+                "ProfileID": "0"
+              }
+            },
+            "CounterProfiles": {
+              "CounterProfile": {
+                "PackageCounterId": "-1",
+                "CounterId": "10108"
+              }
+            },
+            "Completion": {
+              "Enable": {
+                "Completion": "1",
+                "Ask": "1",
+                "AllowDontAsk": "0",
+                "AllowShipmentNumber": "0",
+                "ReceiverName1": "1",
+                "ReceiverName2": "1",
+                "ReceiverStreetAddress1": "1",
+                "ReceiverStreetAddress2": "1",
+                "ReceiverPostCode": "1",
+                "ReceiverCity": "1",
+                "ReceiverState": "1",
+                "ReceiverCountry": "1",
+                "ReceiverMobilePhoneNumber": "0",
+                "ReceiverPhoneNumber": "0",
+                "ReceiverFaxNumber": "0",
+                "ReceiverAttention": "0",
+                "ReceiverReference": "0",
+                "OrderNumber": "0",
+                "ProjectName": "0",
+                "Allow shipment completion over multiple days": "0",
+                "AllowOnPrebookedShipments": "0",
+                "ManualStacks": "0",
+                "Shipment Completion Log": "0",
+                "Trim response in API": "0",
+                "Merge Messages": "0",
+                "Multiple Days Limit": "0"
+              },
+              "UsedFieldsFromMerged": {
+                "OnlyWhenValueNotEmpty": "0"
+              }
+            }
+          }
+        },
+        {
+          "SubcarrierName": "Bring Norway Domestic",
+          "ProdConceptID": 3583,
+          "ProdName": "Partigods til bedrift",
+          "Countries": "",
+          "DenyCountries": "",
+          "AllowDG": 1,
+          "DetailGroups": [
+            {
+              "DetailGroupID": 1,
+              "Label": "Details",
+              "Listing": "multiple",
+              "Details": [
+                {
+                  "DetailID": 5,
+                  "Label": "Quantity",
+                  "DataType": "3"
+                },
+                {
+                  "DetailID": 4,
+                  "Label": "Country of origin",
+                  "DataType": "1"
+                },
+                {
+                  "DetailID": 2,
+                  "Label": "Unit Value",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 10,
+                  "Label": "Total Value",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 17,
+                  "Label": "Currency",
+                  "DataType": "2"
+                },
+                {
+                  "DetailID": 18,
+                  "Label": "Commodity code",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 1,
+                  "Label": "Article No",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 7,
+                  "Label": "Description of goods",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 36,
+                  "Label": "Item Netto Weight(KGM)",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 6,
+                  "Label": "Item Gross Weight(KGM)",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 193,
+                  "Label": "GoodsLineNo",
+                  "DataType": "3"
+                }
+              ]
+            }
+          ],
+          "Services": [
+            {
+              "ServiceID": 442010,
+              "ServiceName": "Elektronisk varsling til tredjepart",
+              "ServiceCode": "Elektronisk varsling til tredjepart"
+            },
+            {
+              "ServiceID": 442044,
+              "ServiceName": "Farlig gods",
+              "ServiceCode": "Farlig gods"
+            },
+            {
+              "ServiceID": 442041,
+              "ServiceName": "Mottaker betaler frakt",
+              "ServiceCode": "Mottaker betaler frakt",
+              "GroupID": 1,
+              "Kind": 1
+            },
+            {
+              "ServiceID": 442042,
+              "ServiceName": "Tredjepart betaler frakt",
+              "ServiceCode": "Tredjepart betaler frakt",
+              "GroupID": 1,
+              "Kind": 2
+            },
+            {
+              "ServiceID": 442045,
+              "ServiceName": "Pickup",
+              "ServiceCode": "Pickup",
+              "GroupID": 6
+            },
+            {
+              "ServiceID": 442058,
+              "ServiceName": "Age Verification",
+              "ServiceCode": "AgeVerification",
+              "GroupID": 5
+            },
+            {
+              "ServiceID": 442061,
+              "ServiceName": "Lasting med løftelem",
+              "ServiceCode": "Lasting med løftelem"
+            },
+            {
+              "ServiceID": 442009,
+              "ServiceName": "Flex Delivery",
+              "ServiceCode": "Forenklet utlevering"
+            },
+            {
+              "ServiceID": 442135,
+              "ServiceName": "Spesielle leveringsbetingelser",
+              "ServiceCode": "SpesielleLeveringsbetingelser"
+            }
+          ],
+          "configuration": {
+            "ShipperAccount": {
+              "Shipper": {
+                "Account": "2228294"
+              }
+            },
+            "EdiTransmit": {
+              "TransmitMethod": {
+                "Selected": "Edisoft"
+              },
+              "EDIID": {
+                "EDIIDReceiverCode": "30",
+                "EDIIDReceiver": "984661185",
+                "EDIIDSenderCode": "ZZZ",
+                "EDIIDSender": "CONSIGNORNO"
+              },
+              "Edisoft": {
+                "ProfileID": "0"
+              }
+            },
+            "CounterProfiles": {
+              "CounterProfile": {
+                "PackageCounterId": "-1",
+                "CounterId": "10108"
+              }
+            },
+            "Completion": {
+              "Enable": {
+                "Completion": "1",
+                "Ask": "1",
+                "AllowDontAsk": "0",
+                "AllowShipmentNumber": "0",
+                "ReceiverName1": "1",
+                "ReceiverName2": "1",
+                "ReceiverStreetAddress1": "1",
+                "ReceiverStreetAddress2": "1",
+                "ReceiverPostCode": "1",
+                "ReceiverCity": "1",
+                "ReceiverState": "1",
+                "ReceiverCountry": "1",
+                "ReceiverMobilePhoneNumber": "0",
+                "ReceiverPhoneNumber": "0",
+                "ReceiverFaxNumber": "0",
+                "ReceiverAttention": "0",
+                "ReceiverReference": "0",
+                "OrderNumber": "0",
+                "ProjectName": "0",
+                "Allow shipment completion over multiple days": "0",
+                "AllowOnPrebookedShipments": "0",
+                "ManualStacks": "0",
+                "Shipment Completion Log": "0",
+                "Trim response in API": "0",
+                "Merge Messages": "0",
+                "Multiple Days Limit": "0"
+              },
+              "UsedFieldsFromMerged": {
+                "OnlyWhenValueNotEmpty": "0"
+              }
+            }
+          }
+        },
+        {
+          "SubcarrierName": "Bring Norway Domestic",
+          "ProdConceptID": 5266,
+          "ProdName": "Stykkgods til bedrift",
+          "Countries": "",
+          "DenyCountries": "",
+          "AllowDG": 1,
+          "DetailGroups": [
+            {
+              "DetailGroupID": 1,
+              "Label": "Details",
+              "Listing": "multiple",
+              "Details": [
+                {
+                  "DetailID": 5,
+                  "Label": "Quantity",
+                  "DataType": "3"
+                },
+                {
+                  "DetailID": 4,
+                  "Label": "Country of origin",
+                  "DataType": "1"
+                },
+                {
+                  "DetailID": 2,
+                  "Label": "Unit Value",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 10,
+                  "Label": "Total Value",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 17,
+                  "Label": "Currency",
+                  "DataType": "2"
+                },
+                {
+                  "DetailID": 18,
+                  "Label": "Commodity code",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 1,
+                  "Label": "Article No",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 7,
+                  "Label": "Description of goods",
+                  "DataType": "0"
+                },
+                {
+                  "DetailID": 36,
+                  "Label": "Item Netto Weight(KGM)",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 6,
+                  "Label": "Item Gross Weight(KGM)",
+                  "DataType": "4"
+                },
+                {
+                  "DetailID": 193,
+                  "Label": "GoodsLineNo",
+                  "DataType": "3"
+                }
+              ]
+            }
+          ],
+          "Services": [
+            {
+              "ServiceID": 442001,
+              "ServiceName": "Elektronisk varsling til avsender om utlevering",
+              "ServiceCode": "Elektronisk varsling til avsender"
+            },
+            {
+              "ServiceID": 442010,
+              "ServiceName": "Elektronisk varsling til tredjepart",
+              "ServiceCode": "Elektronisk varsling til tredjepart"
+            },
+            {
+              "ServiceID": 442011,
+              "ServiceName": "Legitimasjonsplikt",
+              "ServiceCode": "Legitimasjonsplikt"
+            },
+            {
+              "ServiceID": 442013,
+              "ServiceName": "Advisering",
+              "ServiceCode": "Advisering"
+            },
+            {
+              "ServiceID": 442044,
+              "ServiceName": "Farlig gods",
+              "ServiceCode": "Farlig gods"
+            },
+            {
+              "ServiceID": 442041,
+              "ServiceName": "Mottaker betaler frakt",
+              "ServiceCode": "Mottaker betaler frakt",
+              "GroupID": 1,
+              "Kind": 1
+            },
+            {
+              "ServiceID": 442042,
+              "ServiceName": "Tredjepart betaler frakt",
+              "ServiceCode": "Tredjepart betaler frakt",
+              "GroupID": 1,
+              "Kind": 2
+            },
+            {
+              "ServiceID": 442009,
+              "ServiceName": "Flex Delivery",
+              "ServiceCode": "Forenklet utlevering"
+            },
+            {
+              "ServiceID": 442045,
+              "ServiceName": "Pickup",
+              "ServiceCode": "Pickup",
+              "GroupID": 6
+            },
+            {
+              "ServiceID": 442058,
+              "ServiceName": "Age Verification",
+              "ServiceCode": "AgeVerification",
+              "GroupID": 5
+            },
+            {
+              "ServiceID": 442019,
+              "ServiceName": "Ekstra utleveringsforsøk",
+              "ServiceCode": "Ekstra utleveringsforsøk"
+            },
+            {
+              "ServiceID": 442135,
+              "ServiceName": "Spesielle leveringsbetingelser",
+              "ServiceCode": "SpesielleLeveringsbetingelser"
+            }
+          ],
+          "configuration": {
+            "ShipperAccount": {
+              "Shipper": {
+                "Account": "2228294"
+              }
+            },
+            "EdiTransmit": {
+              "TransmitMethod": {
+                "Selected": "Edisoft"
+              },
+              "EDIID": {
+                "EDIIDReceiverCode": "30",
+                "EDIIDReceiver": "984661185",
+                "EDIIDSenderCode": "ZZZ",
+                "EDIIDSender": "CONSIGNORNO"
+              },
+              "Edisoft": {
+                "ProfileID": "0"
+              }
+            },
+            "CounterProfiles": {
+              "CounterProfile": {
+                "PackageCounterId": "-1",
+                "CounterId": "10108"
+              }
+            },
+            "Completion": {
+              "Enable": {
+                "Completion": "1",
+                "Ask": "1",
+                "AllowDontAsk": "0",
+                "AllowShipmentNumber": "0",
+                "ReceiverName1": "1",
+                "ReceiverName2": "1",
+                "ReceiverStreetAddress1": "1",
+                "ReceiverStreetAddress2": "1",
+                "ReceiverPostCode": "1",
+                "ReceiverCity": "1",
+                "ReceiverState": "1",
+                "ReceiverCountry": "1",
+                "ReceiverMobilePhoneNumber": "0",
+                "ReceiverPhoneNumber": "0",
+                "ReceiverFaxNumber": "0",
+                "ReceiverAttention": "0",
+                "ReceiverReference": "0",
+                "OrderNumber": "0",
+                "ProjectName": "0",
+                "Allow shipment completion over multiple days": "0",
+                "AllowOnPrebookedShipments": "0",
+                "ManualStacks": "0",
+                "Shipment Completion Log": "0",
+                "Trim response in API": "0",
+                "Merge Messages": "0",
+                "Multiple Days Limit": "0"
+              },
+              "UsedFieldsFromMerged": {
+                "OnlyWhenValueNotEmpty": "0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+,"CorrelationID":"cce6c3c7-51fe-48fd-bbb9-b87817ff7d8b"}

@@ -1,0 +1,15 @@
+{
+  "Carriers": [
+    {
+      "CarrierConceptID": 39,
+      "CountryCode": "NO",
+      "CarrierFullName": "DSV Norge",
+      "CarrierVersion": 2503311142
+    },
+    {
+      "CarrierConceptID": 442,
+      "CarrierFullName": "Bring",
+      "CarrierVersion": 2610130908
+    }
+  ]
+,"CorrelationID":"2b23308f-2d39-4349-885f-35c18bcfef11"}

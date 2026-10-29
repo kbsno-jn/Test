@@ -1,0 +1,29 @@
+[
+    {
+        "name":  "cleanup-error-invalid-postcode",
+        "method":  "DELETE",
+        "path":  "/ShipServer/{actorID}/shipments/E2AF3D90-8B54-42DD-97D6-52DFFE3DDA41",
+        "status":  200,
+        "ms":  240,
+        "bytes":  134,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "cleanup-shipments-pdf",
+        "method":  "DELETE",
+        "path":  "/ShipServer/{actorID}/shipments/4F4D024D-6E13-4530-A708-886BFA59F25A",
+        "status":  200,
+        "ms":  68,
+        "bytes":  134,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "cleanup-shipments-zplgk",
+        "method":  "DELETE",
+        "path":  "/ShipServer/{actorID}/shipments/870A1616-820B-4EAD-8422-A2774CB8F677",
+        "status":  200,
+        "ms":  69,
+        "bytes":  134,
+        "contentType":  "application/json"
+    }
+]

@@ -1,0 +1,209 @@
+[
+    {
+        "name":  "products",
+        "method":  "GET",
+        "path":  "/ShipServer/{actorID}/products?includeCountries=false",
+        "status":  200,
+        "ms":  190,
+        "bytes":  38611,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "availableServices",
+        "method":  "GET",
+        "path":  "/ShipServer/{actorID}/availableServices?includeCarriers=true\u0026includeProducts=true\u0026includeServices=true\u0026includeGoodsTypes=true",
+        "status":  200,
+        "ms":  99,
+        "bytes":  61060,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "carriers",
+        "method":  "GET",
+        "path":  "/ShipServer/{actorID}/carriers",
+        "status":  200,
+        "ms":  47,
+        "bytes":  347,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "senderAddress",
+        "method":  "GET",
+        "path":  "/ShipServer/{actorID}/senderAddress",
+        "status":  200,
+        "ms":  49,
+        "bytes":  201,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "stacks",
+        "method":  "GET",
+        "path":  "/ShipServer/{actorID}/stacks",
+        "status":  200,
+        "ms":  48,
+        "bytes":  1375,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "checkout",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/checkout",
+        "status":  200,
+        "ms":  494,
+        "bytes":  6476,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "checkout-numbers",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/checkout",
+        "status":  200,
+        "ms":  525,
+        "bytes":  6476,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "shipAdvises",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/shipAdvises",
+        "status":  404,
+        "ms":  145,
+        "bytes":  236,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "shipmentPrices",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/shipmentPrices",
+        "status":  200,
+        "ms":  178,
+        "bytes":  1100,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "dropPoints",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/dropPoints",
+        "status":  200,
+        "ms":  129,
+        "bytes":  7434,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "shipmentValidations",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/shipmentValidations",
+        "status":  200,
+        "ms":  103,
+        "bytes":  85,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "error-validation-weight",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/shipmentValidations",
+        "status":  422,
+        "ms":  102,
+        "bytes":  360,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "error-401",
+        "method":  "GET",
+        "path":  "/ShipServer/{actorID}/senderAddress",
+        "status":  401,
+        "ms":  46,
+        "bytes":  82,
+        "contentType":  ""
+    },
+    {
+        "name":  "shipments-pdf",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/shipments",
+        "status":  201,
+        "ms":  446,
+        "bytes":  51465,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "shipments-zplgk",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/shipments",
+        "status":  201,
+        "ms":  283,
+        "bytes":  13362,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "shipment-get",
+        "method":  "GET",
+        "path":  "/ShipServer/{actorID}/shipments/42E440A6-2EA0-42B5-A8DA-7211ACC8D811",
+        "status":  200,
+        "ms":  59,
+        "bytes":  2097,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "trackingURL",
+        "method":  "GET",
+        "path":  "/ShipServer/{actorID}/shipments/42E440A6-2EA0-42B5-A8DA-7211ACC8D811/trackingURL",
+        "status":  200,
+        "ms":  65,
+        "bytes":  231,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "labelReprint",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/shipments/labelReprint",
+        "status":  200,
+        "ms":  126,
+        "bytes":  49327,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "shipment-delete",
+        "method":  "DELETE",
+        "path":  "/ShipServer/{actorID}/shipments/50A57540-52E5-4795-AD80-4EDB0848B2C5",
+        "status":  200,
+        "ms":  104,
+        "bytes":  134,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "error-invalid-postcode",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/shipments",
+        "status":  201,
+        "ms":  454,
+        "bytes":  52075,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "error-invalid-weight",
+        "method":  "POST",
+        "path":  "/ShipServer/{actorID}/shipments",
+        "status":  422,
+        "ms":  118,
+        "bytes":  360,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "cleanup-42E440A6",
+        "method":  "DELETE",
+        "path":  "/ShipServer/{actorID}/shipments/42E440A6-2EA0-42B5-A8DA-7211ACC8D811",
+        "status":  200,
+        "ms":  66,
+        "bytes":  134,
+        "contentType":  "application/json"
+    },
+    {
+        "name":  "cleanup-DF6DC9EC",
+        "method":  "DELETE",
+        "path":  "/ShipServer/{actorID}/shipments/DF6DC9EC-A01C-4A4B-8FBE-29A4EF04F047",
+        "status":  200,
+        "ms":  72,
+        "bytes":  134,
+        "contentType":  "application/json"
+    }
+]

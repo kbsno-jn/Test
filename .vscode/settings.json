@@ -1,0 +1,6 @@
+{
+  "al.enableCodeAnalysis": true,
+  "al.codeAnalyzers": ["${CodeCop}", "${UICop}", "${PerTenantExtensionCop}"],
+  "al.backgroundCodeAnalysis": "Project",
+  "al.ruleSetPath": "../nShiftConnector.ruleset.json"
+}
